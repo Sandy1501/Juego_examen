@@ -1,0 +1,30 @@
+<!--Estructura basica de HTML-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <!--Titulo del programa-->
+    <title>Treasure Map</title>
+
+    <!--Enlazamiento del archivo de estilos-->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <h1>Juego js</h1>
+    <!--Referencia de la imagen ubicada en la carpeta de img-->
+    <img src="img/treasuremap.png" width="400" height="400" id="map" draggable="false">
+
+    <!--Creacion de id para poder hacer alguna refenecia cuando nos encontremos en el JS y esta se indicara, 
+    cuando exista alguna distancia en la pista -->
+    <p id="distance"></p>
+
+    <!--Enlazamiento a el archivo helper.js el cual se encuentra dentro de la carpeta js-->
+    <script src="js/helper.js" charset="utf-8"></script>
+
+    <!--Enlazamiento a el archivo game.js el cual se encuentra dentro de la carpeta js-->
+    <script src="js/game.js" charset="utf-8"></script>
+
+  </body>
+</html>
